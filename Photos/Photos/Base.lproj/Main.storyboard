@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3Nd-L9-Soq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lXP-rZ-YzJ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -7,7 +7,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Photos Collection View Controller-->
+        <!--PHOTOS-->
         <scene sceneID="lMp-NZ-08Y">
             <objects>
                 <collectionViewController id="3Nd-L9-Soq" customClass="PhotosCollectionViewController" customModule="Photos" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,7 +22,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="photoCell" id="AL2-1S-dnO" customClass="PhotosCellViewController" customModule="Photos" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="129" height="127"/>
+                                <rect key="frame" x="0.0" y="64" width="129" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="129" height="127"/>
@@ -51,10 +51,11 @@
                             <outlet property="delegate" destination="3Nd-L9-Soq" id="cZD-v0-ToL"/>
                         </connections>
                     </collectionView>
+                    <navigationItem key="navigationItem" title="PHOTOS" id="udE-yc-qfI"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qc-63-tlo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="424" y="705"/>
+            <point key="canvasLocation" x="1236" y="705"/>
         </scene>
         <!--Photos Detailed View Controller-->
         <scene sceneID="Yez-pn-7NI">
@@ -156,7 +157,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bPC-lg-bJm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ZMq-dn-2es" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1960" y="705"/>
+            <point key="canvasLocation" x="2772" y="705"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8SW-bX-iuC">
@@ -174,7 +175,26 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="1148" y="705"/>
+            <point key="canvasLocation" x="1960" y="705"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="InY-uL-h3w">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lXP-rZ-YzJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b9T-dW-LID">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3Nd-L9-Soq" kind="relationship" relationship="rootViewController" id="kz6-Xh-UNn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fht-Qa-TgA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424" y="705"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="1" green="0.043143195240000001" blue="0.00641721358" alpha="1" colorSpace="calibratedRGB"/>
 </document>
