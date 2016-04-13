@@ -34,8 +34,8 @@
 		3A1683A81BE9C5A7009F39C5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		CDEA8D171CC5FAD200A60B6B /* PhotosDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosDetailedViewController.swift; sourceTree = "<group>"; };
 		CDEA8D191CC5FE8300A60B6B /* PhotosCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCellViewController.swift; sourceTree = "<group>"; };
-		CDEA8D1B1CC6334300A60B6B /* blank_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank_heart.png; path = ../../../../../Desktop/blank_heart.png; sourceTree = "<group>"; };
-		CDEA8D1D1CC6334A00A60B6B /* red_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red_heart.png; path = ../../../../../Desktop/red_heart.png; sourceTree = "<group>"; };
+		CDEA8D1B1CC6334300A60B6B /* blank_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank_heart.png; sourceTree = "<group>"; };
+		CDEA8D1D1CC6334A00A60B6B /* red_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
